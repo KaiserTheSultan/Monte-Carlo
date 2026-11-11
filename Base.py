@@ -4,7 +4,7 @@ import sys
 import matplotlib.pyplot as plt
 import pandas as pd
 
-TWELVE_API_KEY = "f57a1d26e5bf4789b9b12116c37124b5"
+TWELVE_API_KEY = ""
 BASE_URL = "https://api.twelvedata.com/time_series"
 def fetch_twelve_data(symbol, interval="1day", outputsize=1260):
         params = {
